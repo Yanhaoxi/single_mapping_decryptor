@@ -57,7 +57,7 @@ stop
 解密日志存放区
 ## f_model
 模型模块
-## model_register
+### model_register
 模型注册器，实现的模型经过注册后供上一层抽象使用
 ### model_interface
 ```class Model```所有模型需要遵循的的接口,至少需要实现：
@@ -105,11 +105,11 @@ stop
 
 ```
 Order_Mixin实现类似：主要区别在于该方法并不是在变更后立即对估计密钥是否更改做出判断，而是26个共有同一个位置的更改集合中选出最佳的再对密钥进行更改。
-## token_model
+### token_model
 一个以分词器为核心的文本有效性打分模型
-## n_grams_model
+### n_grams_model
 以n元组词频统计为核心的文本有效性打分模型
-## shuffle_model
+### shuffle_model
 一个简单的随机置乱模型
 # 参考网站
 n_grams模型的主要算法参考
