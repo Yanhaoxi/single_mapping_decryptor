@@ -1,0 +1,1 @@
+from . import quadgrams_model

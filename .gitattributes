@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+D:/code/single_mapping_decryptor/decrypt_core/f_model/n_grams_model/quintgrams_model/quintgrams.json filter=lfs diff=lfs merge=lfs -text
+decrypt_core/f_model/n_grams_model/quintgrams_model/quintgrams.json filter=lfs diff=lfs merge=lfs -text
