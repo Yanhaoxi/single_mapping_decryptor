@@ -4,7 +4,6 @@ from logging import Logger
 from math import log10
 import random
 
-
 class Ngram_Model(Model):
     data: dict[str, float] = {}
     L: int = 0
